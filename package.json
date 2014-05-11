@@ -1,0 +1,11 @@
+{
+    "name": "LFHS-IDs",
+    "version": "1.0.0",
+    "description": "Node module to get information about a student via their student ID number",
+
+    "private": false,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LFHS/StudentIDs.git"
+    }
+}
