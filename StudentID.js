@@ -21,7 +21,7 @@ var getSchool = function(id) {
     var schoolId = parseInt((id+'').substr(2,1));
 
     if(schoolId == 7)
-        return 'Deerpath Middle School';
+        return 'Deer Path Middle School';
 
     if(schoolId == 8)
         return 'Lake Bluff Middle School';
