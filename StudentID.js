@@ -27,7 +27,7 @@ var getSchool = function(id) {
         return 'Lake Bluff Middle School';
 
     if(schoolId == 2)
-        return 'Lake Forest Country Day';
+        return 'Lake Forest Country Day School';
 
     return 'Other School';
 };
