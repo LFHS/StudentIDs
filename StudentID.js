@@ -18,7 +18,7 @@ var getYear = function(id) {
 };
 
 var getSchool = function(id) {
-    var schoolId = parseInt((id+'').substr(2,1));
+    var schoolId = parseInt((id+'').substr(2,1), 10);
 
     if(schoolId == 7)
         return 'Deer Path Middle School';
