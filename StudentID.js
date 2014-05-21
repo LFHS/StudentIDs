@@ -1,4 +1,4 @@
-module.exports = function(id) {
+var StudentID = function(id) {
     if((id+'').length != 7)
         throw('Invaild ID - Not 7 digits long');
 
@@ -9,7 +9,7 @@ module.exports = function(id) {
     this.uid = getUID(id);
 };
 
-module.exports.prototype.toString = function() {
+StudentID.prototype.toString = function() {
     return '[object StudentID]';
 };
 
@@ -35,3 +35,9 @@ var getSchool = function(id) {
 var getUID = function(id) {
     return (id+'').substr(3,6);
 };
+
+module.exports.StudentID = StudentID;
+
+module.exports.getYear = getYear;
+module.exports.getSchool = getSchool;
+module.exports.getUID = getUID;
